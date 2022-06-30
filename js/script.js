@@ -4,6 +4,8 @@ let departamento = document.getElementById("departamento");
 let salario = document.getElementById("salario");
 let relatorio = document.getElementById("relatorio");
 let aumento = document.getElementById("aumento");
+let temaBtn = document.getElementById("tema-btn");
+let body = document.body;
 
 
 
@@ -42,3 +44,8 @@ function folhaPagamento() {
         no departamento ${departamento.value} com o salário bruto de ${salario.value} ficará com um salário liquido de ${liquido - 466} </p>`
     }
 }
+
+temaBtn.addEventListener("click", () => {
+ body.classList.toggle("dark");
+
+});

@@ -13,12 +13,14 @@ body{
 
 .container {
     width: 300px;
-    height: 300px;
+    height: 350px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     position:relative;
-    background-color: rgb(218, 218, 218);
+    background-color: #2338a9;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px;
 
     
     
@@ -27,29 +29,52 @@ body{
 #relatorio{
 background-color: rgb(211, 211, 211);
 position: absolute;
-bottom: 150px;
+bottom: 50px;
+width: 300px;
+
 
 }
 
 .container input{
+    /* margin-left: 20px; */
     width: 90%;
     margin-bottom: 10px;
-    place-items: center;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
 }
 
+.container label{
+    margin-left: 25px;
+    font-weight: medium;
+    color: #ffffff;
+}
 
 #btn{
     height:40px;
     width: 50%;
     cursor: pointer;
-    background-color: #757575;
+    background-color: #000b42;
     border: none;
     margin: 0 auto;
     margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 1rem;
     
 
 }
 
+.dark{
+    background-color: rgb(31, 31, 31);
+}
+
+#tema-btn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
 
 
 
