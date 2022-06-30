@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Folha de Pagamento</title>
 </head>
+
 <body>
 
-<div class="container">
-    <label for="">Nome:<input type="text" id="nome"></label>
-    <label for="">Cargo:<input type="text" id="cargo"></label>
-    <label for="">Departamento:<input type="text" id="departamento"></label>
-    <label for="">Salário:<input type="number" id="salario"></label>
-    <!-- <label for="">Aumento:<input type="number" id="aumento"></label> -->
+    <div class="container">
+        <div class="formulario"></div>
+        <label for="">Nome:<input type="text" id="nome"></label>
+        <label for="">Cargo:<input type="text" id="cargo"></label>
+        <label for="">Departamento:<input type="text" id="departamento"></label>
+        <label for="">Salário:<input type="number" id="salario"></label>
+        <!-- <label for="">Aumento:<input type="number" id="aumento"></label> -->
 
-    <button onclick="folhaPagamento()">Gerar folha de pagamento</button>
-</div>
-<div id="relatorio"></div>
+        <button id="btn" onclick="folhaPagamento()">Relatório</button>
+    </div>
+    </div>
+    <div id="relatorio"></div>
 
-   <script src="/js/script.js"></script> 
+    <script src="js/script.js"></script>
 </body>
-</html> 
+
+</html>

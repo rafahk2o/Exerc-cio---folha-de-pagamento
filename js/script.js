@@ -5,6 +5,9 @@ let salario = document.getElementById("salario");
 let relatorio = document.getElementById("relatorio");
 let aumento = document.getElementById("aumento");
 
+
+
+
 function folhaPagamento() {
     if (nome.value == "") {
         alert('Preencha o nome!!!')
